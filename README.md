@@ -1,0 +1,3 @@
+# NextAuth Session Check in API Route
+
+This repository demonstrates a common issue encountered when using NextAuth.js for authentication in Next.js API routes. The problem arises when checking for a valid session within a protected API route, causing an unexpected 401 Unauthorized response even after successful login. This issue usually stems from improper configuration of the API route's session verification or handling. The solution provided here clearly shows how to properly check for sessions in an API route and handle cases where the session is missing or invalid.
